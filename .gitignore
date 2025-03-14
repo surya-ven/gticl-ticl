@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# To do
+TODO.md
+ticl_specs.md
+gticl_specs.md
+test_gticl_writing.ipynb
+test_gticl.ipynb
+test_llm_providers.ipynb
+uv.lock
+gticl/gticl_task_agnostic.py

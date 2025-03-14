@@ -1,0 +1,604 @@
+[
+    {
+        "name": "Project Update",
+        "task": "Write an email to update the team on current project status, highlight challenges, and request input on next steps.",
+        "gticl_output": "Subject: Project Update - Need Your Thoughts!\n\nHey Team,\n\nJust wanted to give a quick update on where we're at with the project. Things are moving along, but we've hit a couple of snags. 😬\n\nSpecifically, [mention challenge 1] and [mention challenge 2] are proving to be a little trickier than expected. I've been brainstorming some solutions, but I'd love to get your input!\n\nAny thoughts on how we should tackle these next? Maybe we can [suggest possible next step]?\n\nLet me know what you think!\n[Your Name]",
+        "ticl_output": "```\nSubject: Project Status - Need your thoughts!\n\nHey team,\n\nQuick update on where we're at. Things are moving, but not without a few bumps. 🚧\n\nWe're facing some unexpected roadblocks with the integration. It's taking longer than expected, and honestly, I'm a bit stuck. 🤷\u200d♀️\n\nAny ideas on how to tackle this? Lemme know if you've got any insights or suggestions. We can chat about next steps.\n\nThanks!\n[Your Name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Both options are similar in length to the author's writing samples.",
+                "format": "Both options follow a similar email format with a subject line, greeting, body, and closing.",
+                "paragraph structure": "Option A uses shorter paragraphs, which is more consistent with the author's style. Option B has slightly longer paragraphs.",
+                "sentence structure": "Option A uses shorter, more informal sentences, aligning better with the author's style. Option B's sentences are a bit more formal and complex.",
+                "punctuation": "Option A uses emojis and informal punctuation (e.g., '🤷\u200d♀️') more frequently, which mirrors the author's style. Option B uses '😬', but is less frequent.",
+                "syntax": "Option A's syntax is more casual and conversational, similar to the author's. Option B's syntax is slightly more formal.",
+                "voice": "Option A has a more casual and relatable voice, consistent with the author's. Option B is slightly more formal and professional.",
+                "diction": "Option A uses words and phrases like 'lemme know' and 'a bit stuck,' which are more in line with the author's casual diction. Option B's diction is slightly more formal (e.g., 'proving to be a little trickier').",
+                "odd incoherent text/formatting": "Option B has bracketed placeholders like '[mention challenge 1]' and '[suggest possible next step]', which is not present in the author's samples. This makes it appear less like a real email and more like a template."
+            },
+            "answer": "A",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: Project Status - Need your thoughts!\n\nHey team,\n\nQuick update on where we're at. Things are moving, but not without a few bumps. 🚧\n\nWe're facing some unexpected roadblocks with the integration. It's taking longer than expected, and honestly, I'm a bit stuck. 🤷\u200d♀️\n\nAny ideas on how to tackle this? Lemme know if you've got any insights or suggestions. We can chat about next steps.\n\nThanks!\n[Your Name]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: Project Update - Need Your Thoughts!\n\nHey Team,\n\nJust wanted to give a quick update on where we're at with the project. Things are moving along, but we've hit a couple of snags. 😬\n\nSpecifically, [mention challenge 1] and [mention challenge 2] are proving to be a little trickier than expected. I've been brainstorming some solutions, but I'd love to get your input!\n\nAny thoughts on how we should tackle these next? Maybe we can [suggest possible next step]?\n\nLet me know what you think!\n[Your Name]"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "error": "Invalid JSON response",
+        "raw_response": "{\n  \"explanation\": {\n    \"length\": \"Both options are similar in length, fitting the brief and casual style of the author samples.\",\n    \"format\": \"Both options use a similar email format, with a subject line and a casual greeting.\",\n    \"paragraph structure\": \"Both options use short paragraphs, similar to the author's writing.\",\n    \"sentence structure\": \"Option B uses more informal sentence structures and contractions, such as \\\"Start packing your desk crap lol,\\\" which is more aligned with the author's casual style. Option A is slightly more formal.\",\n    \"punctuation\": \"Option B uses more exclamation points and emojis (🎉, 😜), which align more closely with the author's punctuation style (e.g., using emojis, multiple exclamation points, and ellipses).\",\n    \"syntax\": \"Option B's syntax is more informal and conversational, mirroring the author's style.\",\n    \"voice\": \"Option B has a more playful and casual voice (e.g., \\\"Start packing your desk crap lol.\\\"), which is more consistent with the author's informal tone. Option A is more straightforward and less playful.\",\n    \"diction\": \"Option B uses more slang and informal language (e.g., \\\"crap\\\", \\\"lol\\\", \\\"cheers\\\"), which aligns better with the author's diction. Option A's language is more neutral.\",\n    \"odd incoherent text/formatting\": \"Option B has no incoherent/odd text or formatting.\",\n  },\n  \"answer\": \"B\"\n}"
+    },
+    {
+        "name": "New Team Member",
+        "task": "Write an email to introduce Sarah, our new UX designer who's starting on Monday.",
+        "gticl_output": "Subject: say hi to Sarah! 👋\n\nHey team,\n\nJust wanted to give you a heads-up that Sarah, our new UX designer, is starting on Monday! 🎉\n\nShe's super talented and I think you're all gonna love working with her. Make sure to say hi and make her feel welcome! 😊\n\nSee ya all soon,\n[Your Name]",
+        "ticl_output": "```\nSubject: say heyy to Sarah!! 👋\n\nHeyyy team,\n\nGuess what?! We have a new UX designer joining us on Monday - it's Sarah! 🎉\n\nShe's gonna be working on all things user experience, so get ready to brainstorm!\n\nMake sure to say hi and make her feel welcome! 🤗\n\nCan't wait for you all to meet her!\n\nThx!\nJordan\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Both options are similar in length to the author's writing samples.",
+                "format": "Both options are formatted as short, informal emails, consistent with the author's style.",
+                "paragraph structure": "Both options use short paragraphs, similar to the author's writing.",
+                "sentence structure": "Option B uses shorter, more casual sentences, with exclamation points and emojis, which aligns better with the author's style. Option A's sentences are slightly more formal.",
+                "punctuation": "Option B uses more exclamation points and emojis, mirroring the author's frequent use of these. Option A uses more standard punctuation.",
+                "syntax": "Option B uses more colloquial language and sentence fragments, consistent with the author's style. Option A's syntax is more standard.",
+                "voice": "Option B has a more enthusiastic and informal voice, similar to the author's writing. Option A is more straightforward and less expressive.",
+                "diction": "Option B uses words like \"Heyyy\" and phrases like \"Guess what?!\" which are common in the author's examples. Option A's language is more neutral.",
+                "odd incoherent text/formatting": "Option B includes \"Thx!\", which is consistent with the Author's style. Option A includes a generic signature \"[Your Name]\", which is not present in the author's writing, and is therefore considered less similar."
+            },
+            "answer": "B",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: say heyy to Sarah!! 👋\n\nHeyyy team,\n\nGuess what?! We have a new UX designer joining us on Monday - it's Sarah! 🎉\n\nShe's gonna be working on all things user experience, so get ready to brainstorm!\n\nMake sure to say hi and make her feel welcome! 🤗\n\nCan't wait for you all to meet her!\n\nThx!\nJordan\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: say hi to Sarah! 👋\n\nHey team,\n\nJust wanted to give you a heads-up that Sarah, our new UX designer, is starting on Monday! 🎉\n\nShe's super talented and I think you're all gonna love working with her. Make sure to say hi and make her feel welcome! 😊\n\nSee ya all soon,\n[Your Name]"
+        },
+        "a_was": "gticl",
+        "b_was": "ticl"
+    },
+    {
+        "name": "Team Outing",
+        "task": "Write an email to gather suggestions for our next team outing and schedule a planning meeting.",
+        "gticl_output": "Subject: Team outing - ideas & planning sesh?\n\nHey everyone,\n\nSo, it's time to start planning our next team outing! 🎉 Any brilliant ideas floating around? Let me know what you're thinking!\n\nTo get the ball rolling, how about we schedule a quick meeting to brainstorm and nail down the details? Maybe next week sometime? Let me know what days work for you.\n\nCheers!\n[Your Name]",
+        "ticl_output": "```\nSubject: team outing ideas?? 🤩\n\nHeyyy everyone,\n\nSooo, it's time to plan our next team outing and I'm drawing a blank! 😩\n\nAnyone have any fun ideas? Bowling? Karaoke? Escape room? I'm open to anything!\n\nLet's schedule a quick meeting to brainstorm next week. Tuesday or Wednesday work for everyone?\n\nLmk what you think!\n\nThx!\nTaylor\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Both options are similar in length to the author's writing.",
+                "format": "Both options follow a similar email format with a subject line and a greeting.",
+                "paragraph structure": "Both options have short paragraphs, similar to the author's writing.",
+                "sentence structure": "Option A has shorter, more informal sentences, aligning better with the author's style. Option B's sentences are slightly more formal.",
+                "punctuation": "Option A uses more varied punctuation, including emojis and exclamation points, which is characteristic of the author's writing. Option B uses fewer exclamation points and no emojis.",
+                "syntax": "Option A uses simpler sentence structures and more colloquial expressions, similar to the author's writing. Option B uses slightly more complex sentence structures.",
+                "voice": "Option A has a more enthusiastic and informal voice, aligning better with the author's tone. Option B has a slightly more formal and professional voice.",
+                "diction": "Option A uses words like 'Heyyy,' 'Sooo,' 'lmk,' and emojis, which are consistent with the author's diction. Option B uses more formal language ('brilliant ideas,' 'nail down the details,' 'cheers').",
+                "odd incoherent text/formatting": "Neither option has any odd or incoherent text or formatting."
+            },
+            "answer": "A",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: team outing ideas?? 🤩\n\nHeyyy everyone,\n\nSooo, it's time to plan our next team outing and I'm drawing a blank! 😩\n\nAnyone have any fun ideas? Bowling? Karaoke? Escape room? I'm open to anything!\n\nLet's schedule a quick meeting to brainstorm next week. Tuesday or Wednesday work for everyone?\n\nLmk what you think!\n\nThx!\nTaylor\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: Team outing - ideas & planning sesh?\n\nHey everyone,\n\nSo, it's time to start planning our next team outing! 🎉 Any brilliant ideas floating around? Let me know what you're thinking!\n\nTo get the ball rolling, how about we schedule a quick meeting to brainstorm and nail down the details? Maybe next week sometime? Let me know what days work for you.\n\nCheers!\n[Your Name]"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Apology for Birthday",
+        "task": "Write an email apologizing for completely forgetting your friend's birthday yesterday because your phone was dead all day. Offer to make it up with dinner at the new Italian restaurant next week.",
+        "gticl_output": "Subject: OMG I'm so sorry!\n\nHey [Friend's Name],\n\nI am SO sorry I missed your birthday yesterday! 😭 My phone died and I was off the grid all day. Total disaster!\n\nSeriously, I feel awful. I hope you had an amazing day anyway!\n\nHow about I make it up to you with dinner at that new Italian place next week? My treat, of course! 😉\n\nAgain, so sorry!\n[Your Name]",
+        "ticl_output": "```\nSubject: Omg I'm the worst friend ever 🤦\u200d♀️\n\nHey [Friend's name],\n\nSoooo I totally spaced on your birthday yesterday. I'M SO SORRY!!! My phone died and I was off the grid all day. No excuses, tho, I'm a terrible human. 😭\n\nHow about I make it up to you with dinner at that new Italian place next week? My treat, obvi.\n\nLmk when you're free!\n\nAgain, so sorry!\nLove ya,\n[Your name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option A is slightly shorter, which aligns better with the concise nature of several examples.",
+                "format": "Both options follow a similar email format with a subject line, greeting, body, closing, and signature. Option A includes an emoji in the subject line.",
+                "paragraph structure": "Option A's paragraph structure, with a slightly longer first paragraph and a shorter second paragraph, is more similar to the examples.",
+                "sentence structure": "Option A uses shorter sentences and includes sentence fragments, which is more characteristic of the author's style. Option B has slightly longer, more formal sentences.",
+                "punctuation": "Option A incorporates more emojis and exclamation marks, aligning with the author's frequent use of these. It also uses 'tho' instead of 'though', and 'ya' instead of 'you.'",
+                "syntax": "Option A's syntax is more informal and conversational, reflecting the author's casual tone. It uses contractions like 'I'm' and 'How about.'",
+                "voice": "Option A's voice is more apologetic and self-deprecating, mirroring the sentiments expressed in the provided examples. The use of \"terrible human\" is also more in line with the self-effacing humor in the samples.",
+                "diction": "Option A's diction includes phrases like \"Soooo\" and \"obvi,\" which are common in the author's writing. Option B uses slightly more formal word choices.",
+                "odd incoherent text/formatting": "Neither option has incoherent text or formatting issues."
+            },
+            "answer": "A",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: Omg I'm the worst friend ever 🤦\u200d♀️\n\nHey [Friend's name],\n\nSoooo I totally spaced on your birthday yesterday. I'M SO SORRY!!! My phone died and I was off the grid all day. No excuses, tho, I'm a terrible human. 😭\n\nHow about I make it up to you with dinner at that new Italian place next week? My treat, obvi.\n\nLmk when you're free!\n\nAgain, so sorry!\nLove ya,\n[Your name]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: OMG I'm so sorry!\n\nHey [Friend's Name],\n\nI am SO sorry I missed your birthday yesterday! 😭 My phone died and I was off the grid all day. Total disaster!\n\nSeriously, I feel awful. I hope you had an amazing day anyway!\n\nHow about I make it up to you with dinner at that new Italian place next week? My treat, of course! 😉\n\nAgain, so sorry!\n[Your Name]"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Vegetarian Sandwich Complaint",
+        "task": "Write a polite complaint email to a local store about finding bacon in your veggie sandwich that you purchased yesterday around 3pm. Mention you'd like to return despite this issue since people say their food is amazing.",
+        "gticl_output": "Subject: veggie sandwich issue\n\nHey there,\n\nSo, I grabbed a veggie sandwich from your store yesterday around 3pm, and I gotta say, I was pretty bummed to find bacon in it. 😔 I'm a vegetarian, so that was a bit of a surprise!\n\nI've heard great things about your food, which is why I'm still hoping to return despite this.\n\nIs there any way I could get a refund or maybe a replacement sandwich next time?\n\nThanks!\n[Your Name]",
+        "ticl_output": "```\nSubject: veggie sandwich issue 😭\n\nHey there,\n\nSooo I got a veggie sandwich from your store yesterday around 3pm and I found bacon in it 😩 I'm vegetarian, so that was kinda gross.\n\nI was super bummed! But I've heard your food is usually amazing, so I'm not totally giving up on you guys lol.\n\nIs there any way I could return it, even though I already ate half?\n\nThanks!\n[Your Name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Both options are similar in length to the author's writing, though Option A is slightly shorter. The author's examples are generally concise.",
+                "format": "Both options follow a similar email format to the author's examples (subject line, greeting, body, closing).",
+                "paragraph structure": "Both options have short paragraphs, which is consistent with the author's style. Option A's paragraph breaks are slightly closer to the author's examples.",
+                "sentence structure": "Option A uses slightly shorter and more informal sentences, like the author. Option B's sentences are a bit longer and more formal.",
+                "punctuation": "Option A uses an emoji and more exclamation points, which is more in line with the author's frequent use of emojis and informal punctuation. Option B uses a more standard punctuation style.",
+                "syntax": "Option A's syntax is slightly more informal and conversational, similar to the author's writing. For example, the use of \"kinda gross\" is more typical of the author's style.",
+                "voice": "Option A has a more casual and slightly apologetic voice, which aligns with the author's tone in several examples. Option B is more straightforward and less apologetic.",
+                "diction": "Option A uses words and phrases like \"Sooo,\" \"kinda gross,\" and \"totally giving up on you guys lol,\" which are closer to the author's informal diction. Option B uses phrases like \"I gotta say,\" \"a bit of a surprise,\" and \"despite this,\" which are more formal.",
+                "odd incoherent text/formatting": "Neither option has incoherent text or formatting."
+            },
+            "answer": "A",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: veggie sandwich issue 😭\n\nHey there,\n\nSooo I got a veggie sandwich from your store yesterday around 3pm and I found bacon in it 😩 I'm vegetarian, so that was kinda gross.\n\nI was super bummed! But I've heard your food is usually amazing, so I'm not totally giving up on you guys lol.\n\nIs there any way I could return it, even though I already ate half?\n\nThanks!\n[Your Name]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: veggie sandwich issue\n\nHey there,\n\nSo, I grabbed a veggie sandwich from your store yesterday around 3pm, and I gotta say, I was pretty bummed to find bacon in it. 😔 I'm a vegetarian, so that was a bit of a surprise!\n\nI've heard great things about your food, which is why I'm still hoping to return despite this.\n\nIs there any way I could get a refund or maybe a replacement sandwich next time?\n\nThanks!\n[Your Name]"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Vacation Request",
+        "task": "Write an email to your boss requesting vacation days from May 15-19 because you're feeling burnt out. Assure them this is before the product launch and you'll have your work completed before leaving.",
+        "gticl_output": "Subject: vacation request\n\nHey [Boss's name],\n\nI'm writing to request some vacation time from May 15-19. I've been feeling a bit burnt out lately 😅 and could really use a few days to recharge.\n\nThis is before the product launch, and I'll make sure all my tasks are completed before I leave. Promise!\n\nLet me know if this works.\n\nThanks!\n[Your name]",
+        "ticl_output": "```\nSubject: vacation request - May 15-19\n\nHey [Boss's name],\n\nSooo I was wondering if I could take a few vacation days in May? 🌴 I was thinking May 15-19.\n\nI've been feeling a little burnt out lately and think a short break would do me good. I know it's coming up, but it's before the product launch, and I'll make sure all my work is totally finished before I leave!\n\nJust wanted to get it on your radar!\n\nThanks a bunch!\n[Your name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option B is slightly longer, which aligns better with the author's longer and more conversational style.",
+                "format": "Both options are in email format, consistent with the author's samples.",
+                "paragraph structure": "Option B's use of multiple shorter paragraphs is more in line with the author's tendency to break up text for readability.",
+                "sentence structure": "Option B uses more informal sentence structures, similar to the author's style (e.g., starting with \"Sooo I was wondering\").",
+                "punctuation": "Option B includes an emoji (🌴) and uses exclamation points and question marks, mirroring the author's frequent use of such punctuation for emphasis and tone.",
+                "syntax": "Option B's syntax is more casual and conversational, as seen in phrases like \"Thanks a bunch!\" and \"Just wanted to get it on your radar!\", which is characteristic of the author's writing.",
+                "voice": "Option B has a more casual and slightly apologetic tone, aligning with the author's frequent use of self-deprecating humor and informal language.",
+                "diction": "Option B uses words like \"Sooo,\" \"totally,\" and phrases like \"get it on your radar,\" which are similar to the author's informal diction.",
+                "odd incoherent text/formatting": "Neither option has any incoherent or odd formatting."
+            },
+            "answer": "B",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: vacation request - May 15-19\n\nHey [Boss's name],\n\nSooo I was wondering if I could take a few vacation days in May? 🌴 I was thinking May 15-19.\n\nI've been feeling a little burnt out lately and think a short break would do me good. I know it's coming up, but it's before the product launch, and I'll make sure all my work is totally finished before I leave!\n\nJust wanted to get it on your radar!\n\nThanks a bunch!\n[Your name]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: vacation request\n\nHey [Boss's name],\n\nI'm writing to request some vacation time from May 15-19. I've been feeling a bit burnt out lately 😅 and could really use a few days to recharge.\n\nThis is before the product launch, and I'll make sure all my tasks are completed before I leave. Promise!\n\nLet me know if this works.\n\nThanks!\n[Your name]"
+        },
+        "a_was": "gticl",
+        "b_was": "ticl"
+    },
+    {
+        "name": "Feedback Request",
+        "task": "Write an email to your mentor asking for feedback on your recent project submission and any areas for improvement.",
+        "gticl_output": "Subject: quick question about my project\n\nHey [Mentor's Name],\n\nHope you're having a good week!\n\nJust wanted to check in about the project I submitted. Any initial thoughts? I'm always looking for ways to improve, so any feedback you have would be amazing.\n\nLet me know if there's anything specific you think I should focus on for next time.\n\nThanks so much!\n[Your Name]",
+        "ticl_output": "```\nSubject: uhhh need your guru wisdom! 🙏\n\nHey [Mentor's Name],\n\nSo I just submitted my project and I'm already second-guessing everything lol. 🙈\n\nCould you take a peek when you have a sec? I'm mostly worried about the [Specific area you're concerned about]. Did I totally mess that up?\n\nAny feedback is welcome! Wanna make sure I'm not completely off track.\n\nThanks a bunch for always being there!\n[Your Name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option B is more similar in length to the examples provided in the author's writing.",
+                "format": "Both options follow a similar email format, but option B includes emojis, which is a stylistic element present in the author's writing.",
+                "paragraph structure": "Option B's paragraph structure, with shorter paragraphs and more frequent line breaks, more closely mirrors the author's writing style.",
+                "sentence structure": "Option B uses sentence fragments and more informal sentence structures, which aligns with the author's writing. Option A contains longer, more formal sentences.",
+                "punctuation": "Option B uses more varied punctuation, including emojis and multiple exclamation points, which is consistent with the author's style. Option A's punctuation is fairly standard.",
+                "syntax": "Option B uses more colloquial and informal syntax (e.g., \"Did I totally mess that up?\"), which is more similar to the author's style.",
+                "voice": "Option B has a more casual, self-deprecating, and slightly anxious tone, which aligns with the author's frequent use of humor and vulnerability. Option A is more formal and direct.",
+                "diction": "Option B uses informal language, slang, and intensifiers (e.g., \"uhhh,\" \"guru wisdom,\" \"totally mess that up\"), which is a characteristic of the author's writing. Option A uses more formal and professional language.",
+                "odd incoherent text/formatting": "Option B contains the use of emojis that are seen in the writing samples."
+            },
+            "answer": "B",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: uhhh need your guru wisdom! 🙏\n\nHey [Mentor's Name],\n\nSo I just submitted my project and I'm already second-guessing everything lol. 🙈\n\nCould you take a peek when you have a sec? I'm mostly worried about the [Specific area you're concerned about]. Did I totally mess that up?\n\nAny feedback is welcome! Wanna make sure I'm not completely off track.\n\nThanks a bunch for always being there!\n[Your Name]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: quick question about my project\n\nHey [Mentor's Name],\n\nHope you're having a good week!\n\nJust wanted to check in about the project I submitted. Any initial thoughts? I'm always looking for ways to improve, so any feedback you have would be amazing.\n\nLet me know if there's anything specific you think I should focus on for next time.\n\nThanks so much!\n[Your Name]"
+        },
+        "a_was": "gticl",
+        "b_was": "ticl"
+    },
+    {
+        "name": "Meeting Follow-Up",
+        "task": "Write an email to follow up on the meeting with the client yesterday, summarize key points, and confirm next steps.",
+        "gticl_output": "Subject: Following up on yesterday's meeting\n\nHey everyone,\n\nJust wanted to send a quick follow-up email about yesterday's meeting. Hope it was helpful!\n\nJust to recap, we talked about [Key Point 1] and [Key Point 2]. We also agreed that [Next Steps].\n\nLet me know if you have any questions!\n\nThanks!\n[Your Name]",
+        "ticl_output": "```\nSubject: following up on yesterday??\n\nHey!\n\nJust wanted to follow up on our meeting yesterday. 📝\n\nSooo, we talked about the new marketing strategy, right? Key takeaways: focusing on social media, targeting Gen Z, and ramping up the influencer stuff.\n\nNext steps: I'm gonna whip up a proposal with all the deets and send it over by Friday. Sound good?\n\nLmk if you have any questions in the meantime!\n\nCheers,\nCasey\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option A is closer to the length of the emails provided in the author's writing, while option B is shorter. The author's emails range from short to medium length, but option B is very concise.",
+                "format": "Option A's format aligns better with the examples, using 'Hey!' as a greeting and 'Cheers,' as a sign-off. Option B uses a more standard format.",
+                "paragraph structure": "Option A's paragraph structure is more casual and broken up, similar to the author's writing. Option B has a more formal and compact paragraph structure.",
+                "sentence structure": "Option A utilizes shorter sentences and includes a question at the end, mirroring the author's style. Option B features longer, more formal sentences.",
+                "punctuation": "Option A uses more casual punctuation (e.g., 'Sooo') and includes emojis/text abbreviations, a common trait in the author's writing. Option B uses standard punctuation.",
+                "syntax": "Option A has a more conversational and slightly informal syntax, closer to the author's style. Option B uses a more formal syntax.",
+                "voice": "Option A's voice is casual, friendly, and slightly informal, in line with the author's writing. Option B's voice is more professional and detached.",
+                "diction": "Option A uses words like 'deets' and 'whip up,' which are more casual and similar to the author's diction. Option B uses more formal vocabulary.",
+                "odd incoherent text/formatting": "Neither option contains odd or incoherent text/formatting."
+            },
+            "answer": "A",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: following up on yesterday??\n\nHey!\n\nJust wanted to follow up on our meeting yesterday. 📝\n\nSooo, we talked about the new marketing strategy, right? Key takeaways: focusing on social media, targeting Gen Z, and ramping up the influencer stuff.\n\nNext steps: I'm gonna whip up a proposal with all the deets and send it over by Friday. Sound good?\n\nLmk if you have any questions in the meantime!\n\nCheers,\nCasey\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: Following up on yesterday's meeting\n\nHey everyone,\n\nJust wanted to send a quick follow-up email about yesterday's meeting. Hope it was helpful!\n\nJust to recap, we talked about [Key Point 1] and [Key Point 2]. We also agreed that [Next Steps].\n\nLet me know if you have any questions!\n\nThanks!\n[Your Name]"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Project Closure",
+        "task": "Write an email to the team announcing the closure of the project, thanking everyone for their hard work, and discussing next steps for future projects.",
+        "gticl_output": "Subject: Project Update\n\nHey Team,\n\nQuick update on the project - we're wrapping things up. 😬 I know, not the news we were hoping for!\n\nI just wanted to say a massive thanks to everyone for their hard work. Seriously, you all went above and beyond, and I really appreciate it. ❤️\n\nWe'll be chatting soon about next steps and what projects are coming up. In the meantime, grab some well-deserved rest! 😴\n\nThanks again!\n[Your Name]",
+        "ticl_output": "```\nSubject: project update\n\nHey team,\n\nSo I wanted to let everyone know that the project is officially closing out this week.\n\nI just wanted to say a HUGE thank you to everyone for all the hard work you put in. Seriously, we couldn't have done it without you all. 💪\n\nWe'll be having a quick wrap-up meeting next week to discuss lessons learned and next steps. More details to come on that soon!\n\nIn the meantime, we'll be starting to assign people to new projects, so keep an eye out for those emails.\n\nThanks again for everything!\n[Name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option B is shorter, aligning with the brevity of the author's emails.",
+                "format": "Both options have similar formatting with a subject line, greeting, body, and sign-off.",
+                "paragraph structure": "Both are similar, but Option B's paragraph breaks are more in line with the author's style.",
+                "sentence structure": "Option B uses shorter, more casual sentences similar to the author. Option A is more formal.",
+                "punctuation": "Option B uses emojis and more casual punctuation (e.g., ellipses) which is characteristic of the author's writing.",
+                "syntax": "Option B's syntax is more conversational, similar to the author's style.",
+                "voice": "Option B has a more casual and enthusiastic voice, similar to the author's emails.",
+                "diction": "Option B uses words and phrases like \"wrapping things up\", \"massive thanks\", \"went above and beyond\", and \"well-deserved rest\" which are more informal and align with the author's diction, including the use of \"we're\". Option A uses more formal language like \"officially closing out\", \"HUGE thank you\" (less likely than \"massive thanks\"), \"lessons learned\", \"next steps\", \"assign people\", and \"keep an eye out\".",
+                "odd incoherent text/formatting": "Both are formatted well, but Option A's capitalization of HUGE is less common in the samples than Option B's use of emojis."
+            },
+            "answer": "B",
+            "winner": "gticl",
+            "winner_output": "Subject: Project Update\n\nHey Team,\n\nQuick update on the project - we're wrapping things up. 😬 I know, not the news we were hoping for!\n\nI just wanted to say a massive thanks to everyone for their hard work. Seriously, you all went above and beyond, and I really appreciate it. ❤️\n\nWe'll be chatting soon about next steps and what projects are coming up. In the meantime, grab some well-deserved rest! 😴\n\nThanks again!\n[Your Name]",
+            "loser": "ticl",
+            "loser_output": "```\nSubject: project update\n\nHey team,\n\nSo I wanted to let everyone know that the project is officially closing out this week.\n\nI just wanted to say a HUGE thank you to everyone for all the hard work you put in. Seriously, we couldn't have done it without you all. 💪\n\nWe'll be having a quick wrap-up meeting next week to discuss lessons learned and next steps. More details to come on that soon!\n\nIn the meantime, we'll be starting to assign people to new projects, so keep an eye out for those emails.\n\nThanks again for everything!\n[Name]\n```"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Task Review",
+        "task": "Write an email to the project manager suggesting a review of all tasks completed in the last quarter to assess performance and set new goals.",
+        "gticl_output": "Subject: quick thought about Q3?\n\nHey [Project Manager Name],\n\nHope you're doing well!\n\nI was just thinking... now that Q3 is done, maybe we should do a quick review of all the tasks we crushed? Could be a good chance to see what worked, what didn't, and pat ourselves on the back, haha.\n\nPlus, it might help us set some even bigger goals for next quarter! Just a thought!\n\nLet me know what you think!\n[Your Name]",
+        "ticl_output": "```\nSubject: check-in?\n\nHey [Project Manager's Name],\n\nThink it might be good to look back at everything we've wrapped up this last quarter. See what worked, what didn't, you know?\n\nMaybe we can set some new goals too?\n\nLet me know when you're free to chat.\n\nThanks!\n[Your Name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option B is slightly longer, which aligns better with the varied lengths of the author's examples, but both are acceptable.",
+                "format": "Both options follow the email format consistently used in the author's samples.",
+                "paragraph structure": "Option B contains a slightly longer paragraph and more conversational language that reflects the author's style. The author tends to use shorter paragraphs and more frequent line breaks.",
+                "sentence structure": "Option B's sentence structure, with its use of questions and conversational interjections ('haha'), is more similar to the author's style. The author frequently uses questions in their emails.",
+                "punctuation": "Option B uses an ellipsis and 'haha', which are both punctuation and stylistic choices that align with the author's frequent use of informal punctuation and emoticons.",
+                "syntax": "Both options have correct syntax, but Option B's syntax is slightly more informal, mirroring the author's laid-back tone.",
+                "voice": "Option B's voice is more casual and conversational, aligning with the author's generally informal and friendly tone. The author uses quite a bit of self-deprecating humor, as well.",
+                "diction": "Option B's diction, with phrases like 'quick review' and 'pat ourselves on the back', is more aligned with the author's casual word choice. Option B is also more likely to use interjections like 'haha' or 'lol'.",
+                "odd incoherent text/formatting": "Neither option contains odd or incoherent text or formatting."
+            },
+            "answer": "B",
+            "winner": "gticl",
+            "winner_output": "Subject: quick thought about Q3?\n\nHey [Project Manager Name],\n\nHope you're doing well!\n\nI was just thinking... now that Q3 is done, maybe we should do a quick review of all the tasks we crushed? Could be a good chance to see what worked, what didn't, and pat ourselves on the back, haha.\n\nPlus, it might help us set some even bigger goals for next quarter! Just a thought!\n\nLet me know what you think!\n[Your Name]",
+            "loser": "ticl",
+            "loser_output": "```\nSubject: check-in?\n\nHey [Project Manager's Name],\n\nThink it might be good to look back at everything we've wrapped up this last quarter. See what worked, what didn't, you know?\n\nMaybe we can set some new goals too?\n\nLet me know when you're free to chat.\n\nThanks!\n[Your Name]\n```"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Training Session Request",
+        "task": "Write an email to HR requesting a training session on effective communication skills for all team members.",
+        "gticl_output": "Subject: team training request\n\nHey HR,\n\nHope you're having a good week!\n\nI was wondering if we could set up a training session for the team on effective communication. I think it would really help us all work together better. We've had a few misunderstandings lately, and I think better communication skills would make a big difference.\n\nCould you let me know what options are available? Maybe a half-day workshop or something?\n\nThanks a bunch!\n[Your Name]",
+        "ticl_output": "```\nSubject: comms training?? 🥺\n\nHey HR,\n\nSooo, I was thinking our team could REALLY use some training on communication skills! 😬\n\nWe've been having some misunderstandings lately (oops!) and I think it would help everyone get on the same page.\n\nCould we maybe set up a training session for everyone? Pretty please? 🙏\n\nThx!\nTaylor\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option B is shorter, more closely resembling the length of the provided examples.",
+                "format": "Both options use a standard email format. Option B's subject line includes emojis, which are common in the author's examples.",
+                "paragraph structure": "Option B has shorter paragraphs, aligning with the author's style. Option A's paragraphs are longer and more formal.",
+                "sentence structure": "Option B uses simpler, less formal sentence structures, closer to the examples. Option A's sentences are longer and more direct.",
+                "punctuation": "Option B uses more emojis and exclamation points, mirroring the author's frequent use of these. It also uses question marks in a similar manner.",
+                "syntax": "Option B's syntax is more conversational, using phrases like \"Sooo\" and \"Pretty please?\" that are common in the author's writing. Option A uses more direct and formal language.",
+                "voice": "Option B's voice is more casual and somewhat pleading, consistent with the author's informal and often humorous tone. Option A's voice is more formal and direct.",
+                "diction": "Option B uses words like \"Sooo\", \"REALLY\", \"oops!\", \"Pretty please?\", and emojis, which are characteristic of the author's diction. Option A uses more formal vocabulary.",
+                "odd incoherent text/formatting": "Option B has no odd incoherent text or formatting."
+            },
+            "answer": "B",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: comms training?? 🥺\n\nHey HR,\n\nSooo, I was thinking our team could REALLY use some training on communication skills! 😬\n\nWe've been having some misunderstandings lately (oops!) and I think it would help everyone get on the same page.\n\nCould we maybe set up a training session for everyone? Pretty please? 🙏\n\nThx!\nTaylor\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: team training request\n\nHey HR,\n\nHope you're having a good week!\n\nI was wondering if we could set up a training session for the team on effective communication. I think it would really help us all work together better. We've had a few misunderstandings lately, and I think better communication skills would make a big difference.\n\nCould you let me know what options are available? Maybe a half-day workshop or something?\n\nThanks a bunch!\n[Your Name]"
+        },
+        "a_was": "gticl",
+        "b_was": "ticl"
+    },
+    {
+        "name": "Weekly Status Update",
+        "task": "Write an email to your team providing a status update on ongoing projects and any upcoming deadlines.",
+        "gticl_output": "Subject: Quick update on projects!\n\nHey team,\n\nJust wanted to give a quick update on where things stand. Hope everyone's having a good week!\n\nSo, the Henderson project is still on track (yay!). But the deadline's creeping up, so let's keep pushing! Also, reminder that the Miller proposal is due next Friday - don't forget!\n\nLet me know if you have any questions or if you're running into any roadblocks. We got this! 💪\n\nCheers,\n[Your Name]",
+        "ticl_output": "Subject: quick update on projects\n\nHey team,\n\nJust wanted to give a quick update on where things stand with our ongoing projects!\n\nSooo the Acme project is still on track for its July 26th deadline. Just need to finalize those reports! The Beta launch is looking good too, hoping to wrap that up by next week.\n\nQuick reminder that the Alpha presentation is coming up on Friday. Let's make sure we're all prepped and ready to go!\n\nLet me know if you have any questions or roadblocks!\nAlex",
+        "evaluation": {
+            "explanation": {
+                "length": "Both options are similar in length to the author's writing, although the author's writing tends to be more variable in length.",
+                "format": "Both options follow a similar format to the author's writing, including a subject line, a greeting, and a closing (in Option B).",
+                "paragraph structure": "Both options have short paragraphs, similar to the author's writing.",
+                "sentence structure": "Option B has shorter, more informal sentences, more similar to the author's writing. Option A's sentences are a bit longer and more formal.",
+                "punctuation": "Option B uses an exclamation point and an emoji, which is consistent with the author's frequent use of such punctuation. Option A uses more standard punctuation.",
+                "syntax": "Option B has a more conversational syntax, similar to the author's writing. Option A is more straightforward and less conversational.",
+                "voice": "Option B has a more casual and enthusiastic voice, which aligns better with the generally informal and sometimes enthusiastic tone of the author's writing. Option A is more neutral and professional.",
+                "diction": "Option B uses more informal diction ('yay!', 'creeping up', 'We got this!'), similar to the author's writing. Option A uses more formal diction.",
+                "odd incoherent text/formatting": "Neither option has odd or incoherent text or formatting."
+            },
+            "answer": "B",
+            "winner": "gticl",
+            "winner_output": "Subject: Quick update on projects!\n\nHey team,\n\nJust wanted to give a quick update on where things stand. Hope everyone's having a good week!\n\nSo, the Henderson project is still on track (yay!). But the deadline's creeping up, so let's keep pushing! Also, reminder that the Miller proposal is due next Friday - don't forget!\n\nLet me know if you have any questions or if you're running into any roadblocks. We got this! 💪\n\nCheers,\n[Your Name]",
+            "loser": "ticl",
+            "loser_output": "Subject: quick update on projects\n\nHey team,\n\nJust wanted to give a quick update on where things stand with our ongoing projects!\n\nSooo the Acme project is still on track for its July 26th deadline. Just need to finalize those reports! The Beta launch is looking good too, hoping to wrap that up by next week.\n\nQuick reminder that the Alpha presentation is coming up on Friday. Let's make sure we're all prepped and ready to go!\n\nLet me know if you have any questions or roadblocks!\nAlex"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Dentist Support",
+        "task": "Write an email to your colleague offering support as they're nervous about their dentist appointment tomorrow.",
+        "gticl_output": "Subject: dentist tomorrow?\n\nHey!\n\nJust wanted to say good luck with the dentist tomorrow! I know you've been dreading it. 😅\n\nSeriously tho, you got this! Maybe treat yourself to something nice afterward? \n\nLet me know if you want to grab lunch or something after - happy to be a distraction!\n\nTalk soon,\n[Your Name]",
+        "ticl_output": "```\nSubject: dentist tmrw?? 😬\n\nHey [Colleague's Name],\n\nHeard you're going to the dentist tomorrow... eek! 🦷 I know you get super freaked out.\n\nJust wanted to say I'm here if you need anything - a distraction, someone to vent to, or even just to come with you and hold your hand lol.\n\nSeriously, let me know! We can grab coffee after to celebrate your bravery 💪\n\nThinking of you!\n[Your Name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option B is slightly shorter, but both are within the range of the provided examples.",
+                "format": "Both options follow the same basic email format as the examples, with a subject line and a casual greeting.",
+                "paragraph structure": "Both options use short paragraphs, which is consistent with the author's style. Option B has slightly shorter paragraphs, which aligns a bit better with the provided examples.",
+                "sentence structure": "Both options use relatively simple and informal sentence structures. Option B's sentences are slightly more concise and conversational, which is more similar to the examples.",
+                "punctuation": "Option B includes a single emoji and an exclamation point, mirroring the author's frequent use of emojis and informal punctuation. Option A uses more formal punctuation and includes a tooth emoji that seems slightly out of place. The frequent use of ellipses and question marks is evident in the author's writing and is present in both options.",
+                "syntax": "Both options use informal syntax. Option B's syntax feels slightly more natural and conversational, aligning better with the author's voice.",
+                "voice": "Both options have a friendly and supportive tone. However, Option B's voice is slightly more casual and relatable, which is closer to the author's informal style.",
+                "diction": "Option B uses words like \"tho\" and phrases like \"you got this,\" which are more aligned with the author's informal and colloquial diction. Option A uses \"eek!\" which does not appear in the examples.",
+                "odd incoherent text/formatting": "Option A has signature brackets. This is not present in the author's samples."
+            },
+            "answer": "B",
+            "winner": "gticl",
+            "winner_output": "Subject: dentist tomorrow?\n\nHey!\n\nJust wanted to say good luck with the dentist tomorrow! I know you've been dreading it. 😅\n\nSeriously tho, you got this! Maybe treat yourself to something nice afterward? \n\nLet me know if you want to grab lunch or something after - happy to be a distraction!\n\nTalk soon,\n[Your Name]",
+            "loser": "ticl",
+            "loser_output": "```\nSubject: dentist tmrw?? 😬\n\nHey [Colleague's Name],\n\nHeard you're going to the dentist tomorrow... eek! 🦷 I know you get super freaked out.\n\nJust wanted to say I'm here if you need anything - a distraction, someone to vent to, or even just to come with you and hold your hand lol.\n\nSeriously, let me know! We can grab coffee after to celebrate your bravery 💪\n\nThinking of you!\n[Your Name]\n```"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Pickup Boyfriend's Suit",
+        "task": "Write an email to your boyfriend reminding him to pick up his suit from the dry cleaners before the wedding this weekend.",
+        "gticl_output": "Subject: quick reminder!\n\nHey babe,\n\nJust wanted to remind you about your suit! Gotta pick it up from the dry cleaners before the wedding this weekend. 🤵\u200d♂️\n\nDon't want you showing up in your sweats lol. 😂\n\nLove you! ❤️\n[Your name]",
+        "ticl_output": "```\nSubject: reminder!!\n\nHey babe!\n\nJust a friendly reminder to grab your suit from the dry cleaners before the wedding this weekend! 🤵\u200d♂️\n\nDon't want you showing up in sweats lol.\n\nLove you!\n[Your Name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Both options are similar in length to the examples, though the examples do vary in length.",
+                "format": "Both options follow a similar email format.",
+                "paragraph structure": "Both options have a similar paragraph structure, with short, concise paragraphs.",
+                "sentence structure": "Both options use short, informal sentences, similar to the examples. Option A has slightly shorter sentences.",
+                "punctuation": "Option A uses more emojis like the author.",
+                "syntax": "Both options have similar syntax, using informal language and contractions.",
+                "voice": "Both options maintain an informal and friendly voice, consistent with the examples. Option A is slightly more similar.",
+                "diction": "Option A uses \"Gotta\" which is a similar contraction used by the author. Option B also uses contractions, but uses \"friendly reminder\" which is more formal.",
+                "odd incoherent text/formatting": "There is no odd or incoherent text in either example."
+            },
+            "answer": "A",
+            "winner": "gticl",
+            "winner_output": "Subject: quick reminder!\n\nHey babe,\n\nJust wanted to remind you about your suit! Gotta pick it up from the dry cleaners before the wedding this weekend. 🤵\u200d♂️\n\nDon't want you showing up in your sweats lol. 😂\n\nLove you! ❤️\n[Your name]",
+            "loser": "ticl",
+            "loser_output": "```\nSubject: reminder!!\n\nHey babe!\n\nJust a friendly reminder to grab your suit from the dry cleaners before the wedding this weekend! 🤵\u200d♂️\n\nDon't want you showing up in sweats lol.\n\nLove you!\n[Your Name]\n```"
+        },
+        "a_was": "gticl",
+        "b_was": "ticl"
+    },
+    {
+        "name": "Last Minute Gift Reminder",
+        "task": "Write an email to your friend reminding them to get a last-minute gift for the wedding.",
+        "gticl_output": "Subject: don't forget!!\n\nHey!\n\nJust wanted to remind you about getting a gift for the wedding. It's like, this weekend, right? 😬\n\nI know you're busy, but I didn't want you to forget lol. Maybe just a quick browse online?\n\nSee ya there!\n[Your Name]",
+        "ticl_output": "```\nSubject: OMG gift emergency!! 🚨\n\nHeyyy,\n\nDon't kill me, but did you get a wedding gift yet?! 😬 I totally forgot until like, two seconds ago.\n\nThe wedding is TOMORROW, right?! Ahhh! 😩\n\nWe gotta grab something ASAP. Wanna hit up that boujee home goods store after work? They have, like, everything.\n\nPls say yes so I don't look like a total cheapskate lol. 🙏\n\nLater!\n[Your name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option A is longer, more similar to the length of the emails in the author's writing samples.",
+                "format": "Both options are similarly formatted as emails, but option A includes emojis, which are common in the author's samples.",
+                "paragraph structure": "Option A has shorter paragraphs, more consistent with the author's tendency to use short, informal paragraphs.",
+                "sentence structure": "Option A uses more questions and exclamations, reflecting the author's conversational style. Option B is more direct.",
+                "punctuation": "Option A uses more emojis and multiple exclamation points, more aligned with the author's frequent use of them for emphasis and tone.",
+                "syntax": "Option A uses more informal syntax (e.g., \"Gotta,\" \"Wanna\"), similar to the author's style. Option B is more straightforward.",
+                "voice": "Option A's voice is more frantic and humorous, matching the author's frequent use of humor and informal tone. Option B is more straightforward and less expressive.",
+                "diction": "Option A uses more slang and informal language (e.g., \"boujee,\" \"cheapskate\"), consistent with the author's casual diction. Option B uses more formal language.",
+                "odd incoherent text/formatting": "Neither option contains odd or incoherent text/formatting."
+            },
+            "answer": "A",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: OMG gift emergency!! 🚨\n\nHeyyy,\n\nDon't kill me, but did you get a wedding gift yet?! 😬 I totally forgot until like, two seconds ago.\n\nThe wedding is TOMORROW, right?! Ahhh! 😩\n\nWe gotta grab something ASAP. Wanna hit up that boujee home goods store after work? They have, like, everything.\n\nPls say yes so I don't look like a total cheapskate lol. 🙏\n\nLater!\n[Your name]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: don't forget!!\n\nHey!\n\nJust wanted to remind you about getting a gift for the wedding. It's like, this weekend, right? 😬\n\nI know you're busy, but I didn't want you to forget lol. Maybe just a quick browse online?\n\nSee ya there!\n[Your Name]"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Post-Wedding Thank You",
+        "task": "Write an email to guests thanking them for attending the wedding and for their gifts.",
+        "gticl_output": "Subject: thank you!!!\n\nHey everyone,\n\nJust wanted to say a massive thank you for coming to the wedding! It meant so much to us that you were all there to celebrate with us. 🥰\n\nAnd thank you so much for the generous gifts! We really appreciate it. We're so excited to use them!\n\nIt was truly the best day ever! Thanks again for everything!\n\nLots of love,\n[Your Names]",
+        "ticl_output": "```\nSubject: thanks for coming to the wedding!\n\nHey everyone,\n\nSooo... the wedding was a blast, right? 😅 Thanks so much for being there! It meant a lot to us.\n\nAnd thanks for all the awesome gifts! We really appreciate it. We're so excited to use them!\n\nHope you all had a great time!\n\nLater!\n[Your Name(s)]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Both options are similar in length to the provided examples, but Option A is slightly shorter, which aligns with some of the brief emails in the author's writing.",
+                "format": "Both options follow a similar email format with a subject line, greeting, body, and closing.",
+                "paragraph structure": "Option A's paragraph structure, with shorter paragraphs and a more concise message, is more in line with the author's style. Option B's paragraphs are slightly longer and more effusive.",
+                "sentence structure": "Option A has some shorter, more informal sentences, similar to the provided examples (e.g., \"Sooo... the wedding was a blast, right?\"). Option B's sentence structure is slightly more formal.",
+                "punctuation": "Option A uses \"😅\" which is consistent with the author's use of emojis and less formal punctuation. Option B uses \"🥰\" which is similar, but it does not use ellipses.",
+                "syntax": "Both options have relatively simple syntax, but Option A's syntax is slightly more casual.",
+                "voice": "Option A has a more casual and slightly humorous voice (e.g., \"Sooo... the wedding was a blast, right?\"), which is more consistent with the author's writing. Option B's voice is more sincere and thankful but less conversational.",
+                "diction": "Option A uses \"blast\" and \"Later!\" which are more aligned with the author's informal diction. Option B uses \"massive thank you\" and \"Lots of love,\" which are slightly more formal.",
+                "odd incoherent text/formatting": "Both options are coherent and follow a standard email format."
+            },
+            "answer": "A",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: thanks for coming to the wedding!\n\nHey everyone,\n\nSooo... the wedding was a blast, right? 😅 Thanks so much for being there! It meant a lot to us.\n\nAnd thanks for all the awesome gifts! We really appreciate it. We're so excited to use them!\n\nHope you all had a great time!\n\nLater!\n[Your Name(s)]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: thank you!!!\n\nHey everyone,\n\nJust wanted to say a massive thank you for coming to the wedding! It meant so much to us that you were all there to celebrate with us. 🥰\n\nAnd thank you so much for the generous gifts! We really appreciate it. We're so excited to use them!\n\nIt was truly the best day ever! Thanks again for everything!\n\nLots of love,\n[Your Names]"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Birthday Party Invitation",
+        "task": "Write an email inviting friends to your birthday party next weekend at the new karaoke place downtown.",
+        "gticl_output": "Subject: birthday karaoke next weekend!\n\nHey everyone,\n\nGuess what?! It's my birthday soon! 🎉\n\nI'm planning a karaoke night next weekend at that new place downtown. You know, the one with the crazy good reviews?\n\nIt'll be super fun to hang out, sing (or butcher) some songs, and celebrate another year of my awesomeness. 😉\n\nSaturday night work for you guys? Let me know if you can make it!\n\nLater!\n[Your Name]",
+        "ticl_output": "```\nSubject: birthday party next weekend!! 🥳\n\nHey everyone,\n\nSooo I'm planning to have a little get-together for my birthday next weekend! 🎉\n\nThere's this new karaoke place downtown that just opened up. I was thinking we could all go there and embarrass ourselves singing haha. 🎤\n\nIt'll be next Saturday night. Let me know if you can make it!\n\nHope to see you there!\n[Your name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Both options are of similar length and within the range of the provided samples.",
+                "format": "Both options follow a similar email format with a subject line, greeting, body, and closing.",
+                "paragraph structure": "Both options have short paragraphs, similar to the provided samples.",
+                "sentence structure": "Option A's sentence structure is simpler and closer to the author's style, using shorter sentences and simpler phrasing. Option B includes longer sentences and more complex phrasing.",
+                "punctuation": "Option A uses an exclamation mark in the subject line and includes 'haha', which aligns with the author's use of casual punctuation, emoticons, and interjections. Option B uses a winking face emoticon, which is not present in the examples.",
+                "syntax": "Option A uses simpler syntax, which is more similar to the author's writing style. Option B uses slightly more complex sentence structures.",
+                "voice": "Option A's voice is more casual and matches the generally casual tone of the author's writing, using phrases like 'get-together' and 'embarrass ourselves singing haha'. Option B is slightly more formal.",
+                "diction": "Option A uses words and phrases like 'Sooo' and 'haha', which are consistent with the author's diction. Option B uses phrases like 'Guess what?!' and 'awesomeness', which are less common in the provided samples.",
+                "odd incoherent text/formatting": "Neither option contains odd or incoherent text or formatting."
+            },
+            "answer": "A",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: birthday party next weekend!! 🥳\n\nHey everyone,\n\nSooo I'm planning to have a little get-together for my birthday next weekend! 🎉\n\nThere's this new karaoke place downtown that just opened up. I was thinking we could all go there and embarrass ourselves singing haha. 🎤\n\nIt'll be next Saturday night. Let me know if you can make it!\n\nHope to see you there!\n[Your name]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: birthday karaoke next weekend!\n\nHey everyone,\n\nGuess what?! It's my birthday soon! 🎉\n\nI'm planning a karaoke night next weekend at that new place downtown. You know, the one with the crazy good reviews?\n\nIt'll be super fun to hang out, sing (or butcher) some songs, and celebrate another year of my awesomeness. 😉\n\nSaturday night work for you guys? Let me know if you can make it!\n\nLater!\n[Your Name]"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Dinner Plans",
+        "task": "Write an email to your friend confirming dinner plans for tonight at the new Italian restaurant.",
+        "gticl_output": "Subject: Dinner tonight!\n\nHey!\n\nJust wanted to confirm we're still on for dinner tonight at the new Italian place? I'm actually excited to try it! 😋\n\nI'm planning on being there around 7:30. Does that still work for you?\n\nSee you later!\n[Your name]",
+        "ticl_output": "```\nSubject: dinner tonight!\n\nHeyyyy!\n\nJust wanted to confirm we're still on for dinner tonight?? So excited to try that new Italian place! 🍝\n\nI heard their pasta is amazing. Lmk if you're still free around 7pm!\n\nCan't wait to see youuuu!\nRiley\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option B is longer, which aligns more closely with the length of the examples provided in the author's writing.",
+                "format": "Both options are formatted as emails, similar to the examples.",
+                "paragraph structure": "Option B has shorter paragraphs and more line breaks, which is more in line with the email examples provided.",
+                "sentence structure": "Option B uses shorter, more informal sentences, similar to the examples provided.",
+                "punctuation": "Option B uses more exclamation points and emojis, mirroring the author's style in the examples.",
+                "syntax": "Option B uses more casual syntax and abbreviations, such as \"Lmk,\" which is consistent with the provided examples.",
+                "voice": "Option B has a more enthusiastic and informal voice, similar to the provided examples.",
+                "diction": "Option B employs more colloquial diction with phrases like \"Heyyyy!\" and \"Can't wait to see youuuu!\", which is more consistent with the provided examples.",
+                "odd incoherent text/formatting": "Option A has a signature '[Your name]' which is not present in the given author's writing samples and is thus penalized."
+            },
+            "answer": "B",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: dinner tonight!\n\nHeyyyy!\n\nJust wanted to confirm we're still on for dinner tonight?? So excited to try that new Italian place! 🍝\n\nI heard their pasta is amazing. Lmk if you're still free around 7pm!\n\nCan't wait to see youuuu!\nRiley\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: Dinner tonight!\n\nHey!\n\nJust wanted to confirm we're still on for dinner tonight at the new Italian place? I'm actually excited to try it! 😋\n\nI'm planning on being there around 7:30. Does that still work for you?\n\nSee you later!\n[Your name]"
+        },
+        "a_was": "gticl",
+        "b_was": "ticl"
+    },
+    {
+        "name": "Movie Night",
+        "task": "Write an email to your friends inviting them to a movie night at your place this Saturday.",
+        "gticl_output": "Subject: movie night this weekend?\n\nHey everyone,\n\nWhatcha up to this Saturday? 🤔\n\nI was thinking of having a movie night at my place. We could order pizza, wear pajamas, and make fun of terrible acting lol.\n\nIf you're in, come around 7? Let me know if you can make it so I can figure out how much pizza to order! 🍕\n\nLater!\n[Your Name]",
+        "ticl_output": "```\nSubject: movie night this saturday!!\n\nHeyyyy!\n\nSoooo, I'm thinking of having a movie night at my place this Saturday! 🎉\n\nI was thinking we could watch that new horror movie everyone's been talking about? Or something else, if horror's not your thing lol. I'm open to suggestions!\n\nI'll order pizza and we can load up on snacks. 🍕🍿\n\nLet me know if you can make it!\n\nLater!\n[Your Name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option B is slightly longer, which aligns better with the length of the author's writing samples.",
+                "format": "Both options use a conversational email format, consistent with the author's writing.",
+                "paragraph structure": "Option B has shorter paragraphs, which is more characteristic of the author's writing style.",
+                "sentence structure": "Option B uses more informal sentence structures and includes questions asides, similar to the author's style.",
+                "punctuation": "Option B uses more exclamation points and emojis, which are common in the author's writing. It also uses ellipses which are very common.",
+                "syntax": "Both options have similar syntax, but option B uses more informal contractions and sentence fragments.",
+                "voice": "Option B has a more casual and enthusiastic voice, which is more similar to the author's writing style.",
+                "diction": "Option B uses words like \"Heyyyy!\" and \"Soooo\" which are found in the author's examples. It also uses phrases like \"horror's not your thing lol\" which is very common in the source examples.",
+                "odd incoherent text/formatting": "Option A has no oddities. Option B has no oddities."
+            },
+            "answer": "B",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: movie night this saturday!!\n\nHeyyyy!\n\nSoooo, I'm thinking of having a movie night at my place this Saturday! 🎉\n\nI was thinking we could watch that new horror movie everyone's been talking about? Or something else, if horror's not your thing lol. I'm open to suggestions!\n\nI'll order pizza and we can load up on snacks. 🍕🍿\n\nLet me know if you can make it!\n\nLater!\n[Your Name]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: movie night this weekend?\n\nHey everyone,\n\nWhatcha up to this Saturday? 🤔\n\nI was thinking of having a movie night at my place. We could order pizza, wear pajamas, and make fun of terrible acting lol.\n\nIf you're in, come around 7? Let me know if you can make it so I can figure out how much pizza to order! 🍕\n\nLater!\n[Your Name]"
+        },
+        "a_was": "gticl",
+        "b_was": "ticl"
+    },
+    {
+        "name": "Book Club Meeting",
+        "task": "Write an email to book club members reminding them of the meeting next week and suggesting discussion topics.",
+        "gticl_output": "Subject: Book club next week!\n\nHey everyone,\n\nJust a reminder that book club is next week! Can't wait to see you all. 😊\n\nI was brainstorming some discussion topics... what do you think about focusing on the main character's motivations or maybe the author's writing style? Open to other ideas too, of course!\n\nSee you soon!\nSarah",
+        "ticl_output": "```\nSubject: Book club next week!!\n\nHey everyone,\n\nJust a reminder that book club is next week! 🥳\n\nAnyone have thoughts on what we should chat about? I was thinking character development or maybe the author's writing style? Open to suggestions!\n\nSee you all soon!\n[Your Name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option B is closer in length to the examples provided in the author's writing, which tend to be relatively short and concise. Option A is noticeably shorter.",
+                "format": "Both options follow a similar format to the examples, including a subject line and a greeting. Option B has a closing signature like some of the examples.",
+                "paragraph structure": "Both options have a similar paragraph structure, with short paragraphs.",
+                "sentence structure": "Option B uses shorter, more conversational sentence structures, similar to the provided examples. Option A's sentences are slightly longer and more formal.",
+                "punctuation": "Option B uses an exclamation point in the subject line and within the body of the text, which is more consistent with the author's frequent use of exclamation points and other informal punctuation. Option A uses a more standard punctuation.",
+                "syntax": "Option B uses more informal syntax (e.g., \"Anyone have thoughts\") which aligns better with the author's style. Option A is grammatically sound, but not as casual.",
+                "voice": "Option B has a more casual and enthusiastic voice, which is more in line with the author's writing style. Option A is more formal and straightforward.",
+                "diction": "Option B uses words and phrases like \"chat about\" and \"see you all soon!\" which are more consistent with the author's diction. Option A uses words like \"discussion topics\" and \"see you soon!\" which are more formal.",
+                "odd incoherent text/formatting": "Option B includes a closing signature enclosed in brackets, which is not odd but is not present in all of the author examples."
+            },
+            "answer": "B",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: Book club next week!!\n\nHey everyone,\n\nJust a reminder that book club is next week! 🥳\n\nAnyone have thoughts on what we should chat about? I was thinking character development or maybe the author's writing style? Open to suggestions!\n\nSee you all soon!\n[Your Name]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: Book club next week!\n\nHey everyone,\n\nJust a reminder that book club is next week! Can't wait to see you all. 😊\n\nI was brainstorming some discussion topics... what do you think about focusing on the main character's motivations or maybe the author's writing style? Open to other ideas too, of course!\n\nSee you soon!\nSarah"
+        },
+        "a_was": "gticl",
+        "b_was": "ticl"
+    },
+    {
+        "name": "Game Night",
+        "task": "Write an email to friends inviting them to a game night at your place this Friday.",
+        "gticl_output": "Subject: game night this Friday!\n\nHey everyone,\n\nWanna hang out this Friday for game night at my place? 🤓\n\nI was thinking we could order pizza and play some board games. I'm open to suggestions if anyone has a specific game they wanna play.\n\nLet me know if you can make it!\n\nLater,\n[Your Name]",
+        "ticl_output": "```\nSubject: game night at my place??\n\nHey guys,\n\nWanna have a game night at my place this Friday? 🎉\n\nI'm thinking we could play Codenames or Cards Against Humanity... or whatever else we're in the mood for lol.\n\nLmk if you're in!\n\nLater,\n[Your Name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Both options are similar in length to the provided examples.",
+                "format": "Both options follow a similar format with a subject line, greeting, body, and sign-off.",
+                "paragraph structure": "Option A has a paragraph structure that is more similar to the examples, with shorter paragraphs and use of emojis.",
+                "sentence structure": "Option A uses shorter, more informal sentences, which is consistent with the examples. Option B's sentences are slightly more formal.",
+                "punctuation": "Option A includes an emoji and 'lol,' which are common in the provided examples. Option B doesn't use any emojis or similar punctuation.",
+                "syntax": "Both options have similar syntax, but Option A's is slightly more informal.",
+                "voice": "Option A's voice is more casual and friendly, aligning better with the examples. Option B's voice is slightly more formal and less enthusiastic.",
+                "diction": "Option A uses words like 'Wanna' and 'Lmk,' which are consistent with the informal language in the examples. Option B uses more formal words like 'hang out' and 'Let me know'.",
+                "odd incoherent text/formatting": "Neither option contains any odd incoherent text or formatting."
+            },
+            "answer": "A",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: game night at my place??\n\nHey guys,\n\nWanna have a game night at my place this Friday? 🎉\n\nI'm thinking we could play Codenames or Cards Against Humanity... or whatever else we're in the mood for lol.\n\nLmk if you're in!\n\nLater,\n[Your Name]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: game night this Friday!\n\nHey everyone,\n\nWanna hang out this Friday for game night at my place? 🤓\n\nI was thinking we could order pizza and play some board games. I'm open to suggestions if anyone has a specific game they wanna play.\n\nLet me know if you can make it!\n\nLater,\n[Your Name]"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    },
+    {
+        "name": "Coffee Date",
+        "task": "Write an email to your crush asking them out for coffee this weekend.",
+        "gticl_output": "Subject: coffee this weekend?\n\nHey [Crush's Name],\n\nHope you're having a good week! 😊\n\nI was wondering if you'd be interested in grabbing coffee this weekend? I know you mentioned liking that new place downtown...\n\nTotally no pressure either way! Just thought I'd ask.\n\nLater!\n[Your Name]",
+        "ticl_output": "```\nSubject: coffee this weekend??\n\nHeyyyy,\n\nSooo I was wondering if you're free this weekend? 🤔\n\nI've been wanting to grab coffee with you for ages! ☕️\n\nAny chance you'd be down to go sometime? Lmk!\n\nThx!\nTaylor\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Both options are similar in length to the author's writing.",
+                "format": "Both options use a similar email format including a subject line and casual greeting.",
+                "paragraph structure": "Both options have short paragraphs, similar to the author's style.",
+                "sentence structure": "Option B's sentence structure is more similar to the author's writing. It uses shorter, more casual sentences with questions, and conversational phrases.",
+                "punctuation": "Option B uses more exclamation points, emojis and question marks, and ellipses which are consistent with the author's usage. It also uses interjections like 'sooo'.",
+                "syntax": "Option B's syntax is more informal and casual, aligning better with the author's style.",
+                "voice": "Option B has a more casual and enthusiastic voice, which is similar to the author's writing style. Option A sounds more formal and reserved.",
+                "diction": "Option B uses words and phrases like 'Heyyyy,' 'Sooo,' 'lmk,' and 'down to go,' which are consistent with the author's casual diction. Option A uses words like 'wondering' and 'interested' which are not used by the author.",
+                "odd incoherent text/formatting": "Both options do not have any incoherent or odd formatting."
+            },
+            "answer": "B",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: coffee this weekend??\n\nHeyyyy,\n\nSooo I was wondering if you're free this weekend? 🤔\n\nI've been wanting to grab coffee with you for ages! ☕️\n\nAny chance you'd be down to go sometime? Lmk!\n\nThx!\nTaylor\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: coffee this weekend?\n\nHey [Crush's Name],\n\nHope you're having a good week! 😊\n\nI was wondering if you'd be interested in grabbing coffee this weekend? I know you mentioned liking that new place downtown...\n\nTotally no pressure either way! Just thought I'd ask.\n\nLater!\n[Your Name]"
+        },
+        "a_was": "gticl",
+        "b_was": "ticl"
+    },
+    {
+        "name": "Networking Event Invitation",
+        "task": "Write an email inviting colleagues to an upcoming networking event next month.",
+        "gticl_output": "Subject: networking event next month!\n\nHey everyone,\n\nJust wanted to let you know about a networking thing we're doing next month. Thought some of you might be interested!\n\nIt's a chance to meet people in the industry, swap ideas, and, you know, all that jazz. Plus, free snacks! 😋\n\nI'll send over the deets soon, but mark your calendars!\nCheers,\n[Your Name]",
+        "ticl_output": "```\nSubject: networking event next month?? 🤩\n\nHeyyy everyone,\n\nSoooo, there's this networking thingy next month and I thought it could be fun! 🎉\n\nIt's on [Date of event] at [Time of event] at [Location of event]. They're gonna have food and drinks and stuff, plus it's a good chance to meet people.\n\nAnyone wanna come? Lmk if you're in!\n\nThx!\n[Your Name]\n```",
+        "evaluation": {
+            "explanation": {
+                "length": "Option A is slightly longer, which aligns better with the average length of the author's writing samples.",
+                "format": "Both options follow a similar email format, but Option A's use of emojis and less formal closing aligns more closely with the given examples.",
+                "paragraph structure": "Option A uses shorter paragraphs, similar to the author's style. Option B has slightly longer paragraphs.",
+                "sentence structure": "Option A uses shorter, more fragmented sentences, which is characteristic of the author's writing. Option B has longer and more complete sentences.",
+                "punctuation": "Option A uses more exclamation points and emojis. The author uses similar punctuation in their examples.",
+                "syntax": "Option A's syntax is more informal and casual, aligning with the author's writing style. Option B's syntax is more formal.",
+                "voice": "Option A has a more enthusiastic and casual voice, similar to the author's writing. Option B's voice is more professional.",
+                "diction": "Option A uses words like \"thingy\" and \"stuff\", which are less formal and more consistent with the author's diction. Option B uses words like \"deets\" but overall is more formal.",
+                "odd incoherent text/formatting": "There is no odd or incoherent text in either option."
+            },
+            "answer": "A",
+            "winner": "ticl",
+            "winner_output": "```\nSubject: networking event next month?? 🤩\n\nHeyyy everyone,\n\nSoooo, there's this networking thingy next month and I thought it could be fun! 🎉\n\nIt's on [Date of event] at [Time of event] at [Location of event]. They're gonna have food and drinks and stuff, plus it's a good chance to meet people.\n\nAnyone wanna come? Lmk if you're in!\n\nThx!\n[Your Name]\n```",
+            "loser": "gticl",
+            "loser_output": "Subject: networking event next month!\n\nHey everyone,\n\nJust wanted to let you know about a networking thing we're doing next month. Thought some of you might be interested!\n\nIt's a chance to meet people in the industry, swap ideas, and, you know, all that jazz. Plus, free snacks! 😋\n\nI'll send over the deets soon, but mark your calendars!\nCheers,\n[Your Name]"
+        },
+        "a_was": "ticl",
+        "b_was": "gticl"
+    }
+]
